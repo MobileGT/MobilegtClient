@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:background="@color/background"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/textColor"/>
+
+            <RadioGroup
+                android:id="@+id/main_tab_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:background="@color/background"
+                 >
+
+                <RadioButton
+                    android:id="@+id/main_tab_addExam"
+                    style="@style/MMTabButton"
+                    android:drawableTop="@drawable/bg_checkbox_icon_menu_0"
+                    android:textColor="@drawable/bg_checkbox_textcolor"
+                    android:checked="true"
+                    android:text="Connect" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_myExam"
+                    style="@style/MMTabButton"
+                    android:drawableTop="@drawable/bg_checkbox_icon_menu_1"
+                    android:textColor="@drawable/bg_checkbox_textcolor"
+                    android:text="ShowData" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_message"
+                    style="@style/MMTabButton"
+                    android:drawableTop="@drawable/bg_checkbox_icon_menu_2"
+                    android:textColor="@drawable/bg_checkbox_textcolor"
+                    android:text="Upload" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_settings"
+                    style="@style/MMTabButton"
+                    android:drawableTop="@drawable/bg_checkbox_icon_menu_3"
+                    android:textColor="@drawable/bg_checkbox_textcolor"
+                    android:text="AboutUs" />
+            </RadioGroup>
+             
+
+    </LinearLayout>
+
+</TabHost>

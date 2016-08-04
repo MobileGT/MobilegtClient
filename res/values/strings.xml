@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileGT</string>
+    <string name="hello_world">Hello world!</string>
+
+    <drawable name="clr_normal">#5CACEE</drawable>
+    <drawable name="clr_pressed">#AAAAAA</drawable>
+
+    <string name="connecting">ToyVPN is connecting...</string>
+    <string name="connected">ToyVPN is connected!</string>
+    <string name="disconnected">ToyVPN is disconnected!</string>
+    <string name="disconnectedd">ToyVPN is disconnected by client!</string>
+    <string name="disconnecteddd">ToyVPN is disconnected in finally!</string>
+    <string name="disconnectt">ToyVPN is disconnected in ondestroy!</string>
+    <string name="running">ToyVPN is running!</string>
+    <string name="startservice">ToyVPN is starting service</string>
+    <string name="address">Server Address:</string>
+    <string name="port">Server Port:</string>
+    <string name="secret">Shared Secret:</string>
+    <string name="connect">Connect!</string>
+    <string name="disconnect">DisConnect!</string>
+    <string name="qiniu_select_file">Select files</string>
+    <string name="qiniu_upload">Upload</string>
+    <string name="qiniu_cancel">Cancel</string>
+    <string name="qiniu_get_upload_token">get upload token:</string>
+    <string name="qiniu_upload_response">upload response:</string>
+    <string name="qiniu_get_upload_token_failed">get upload token failed!</string>
+    <string name="qiniu_get_upload_file_failed">get upload file failed!</string>
+    <string name="qiniu_specify_the_file_key">specify the file key!</string>
+    <string name="qiniu_upload_file_failed">upload file failed!</string>
+    <string name="choose_file">choose files</string>
+    <string name="qiniu_upload_file">Upload</string>
+    <string name="qiniu_select_upload_file">choose files</string>
+    <string name="qiniu_upload_file_response_parse_error">upload file response parse error!</string>
+    <string name="hello">Please choose a server</string>
+    <string name="state">Connected time: </string>
+    <string name="RadioButton1">Amazon</string>
+    <string name="RadioButton2">Ali</string>
+    <string name="RadioButton3">Gdpu</string>
+
+    <style name="MMTabButton">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
